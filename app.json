@@ -1,0 +1,12 @@
+{
+  "name": "WhistlersMother",
+  "displayName": "WhistlersMother",
+  "expo": {
+    "name": "WhistlersMother",
+    "slug": "WhistlersMother",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
