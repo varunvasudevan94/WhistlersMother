@@ -1,4 +1,6 @@
 rootProject.name = 'WhistlersMother'
+include ':react-native-sound-level'
+project(':react-native-sound-level').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sound-level/android')
 
 apply from: '../node_modules/react-native-unimodules/gradle.groovy'
 includeUnimodulesProjects()

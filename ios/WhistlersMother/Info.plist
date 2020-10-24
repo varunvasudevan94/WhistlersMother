@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app uses sound to measure number of cooker whistle</string>
 	<key>CFBundleDisplayName</key>
 	<string>WhistlersMother</string>
 	<key>CFBundleExecutable</key>
