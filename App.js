@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
-import SplashScreen from 'react-native-splash-screen'
 import RNSoundLevel from 'react-native-sound-level';
 
 const styles = StyleSheet.create({
@@ -35,11 +34,10 @@ export default class App extends React.Component {
     RNSoundLevel.onNewFrame = (data) => {
       const {rawValue, id} = data;
       const {counter, lastId} = this.state;
-      if ((rawValue > THRESHOLD) && ((id - lastId >= MIN_CUTOFF)) || lastId === 0){
+      if ((rawValue > THRESHOLD) && ((id - lastId >= MIN_CUTOFF) || lastId === 0) ){
           this.setState({counter:counter+1, lastId:id});
       }
     }
-    SplashScreen.hide();
   }
   
   // don't forget to stop it
