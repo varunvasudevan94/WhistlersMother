@@ -6,7 +6,7 @@ and five minutes later you realise you don't remember it ?????
 [Then you get stone cold looks].  
 
 # How to use ?
-1. Open the open, beta can be downloaded from [here](https://github.com/varunvasudevan94/WhistlersMother/tree/main/build/wm-1.0.0.apk).
+1. Open the app, beta can be downloaded from [here](https://github.com/varunvasudevan94/WhistlersMother/tree/main/build/wm-1.0.0.apk).
 2. Place the phone somewhere safe near the cooker.
 3. Counter will increase automatically !!!
 
